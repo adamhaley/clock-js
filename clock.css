@@ -1,0 +1,36 @@
+#clock-face {
+  height: 400px;
+  width: 400px;
+  border: 1px solid #000;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  border-radius: 200px;
+  position: relative;
+}
+#second-hand {
+  position: absolute;
+  background-color: red;
+  width: 4px;
+  height: 200px;
+  top: 0px;
+  left: 200px;
+  -webkit-transform-origin: bottom center;
+}
+#minute-hand {
+  position: absolute;
+  background-color: #000;
+  width: 6px;
+  height: 160px;
+  top: 40px;
+  left: 200px;
+  -webkit-transform-origin: bottom center;
+}
+#hour-hand {
+  position: absolute;
+  background-color: #000;
+  width: 8px;
+  height: 110px;
+  top: 90px;
+  left: 200px;
+  -webkit-transform-origin: bottom center;
+}
