@@ -48,12 +48,12 @@ window.onload = function(e){
 		if((sDeg % 360) === 0){
 			mDeg += 6;
 			minuteHand.style.webkitTransform = "rotate(" + mDeg + "deg)";
-			// console.log('BAM!!!  minute.');
+			
 
 			if((mDeg % 360) === 0){
 				hDeg += 30;
 				hourHand.style.webkitTransform = "rotate(" + hDeg + "deg)";
-				// console.log('BAM!!!  hour.');
+				
 			}
 		}
 	}
